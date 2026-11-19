@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-11-19T12:00:00Z",
+  "app": {
+    "maintenanceMode": false,
+    "maintenanceMessage": "We'll be back soon with exciting new content!",
+    "forceUpdateVersionCode": 0,
+    "updateUrl": "https://play.google.com/store/apps/details?id=com.yourname.pixelpack",
+    "announcement": {
+      "enabled": true,
+      "text": "🎉 New Bundles Added! Explore amazing PNG collections!"
+    }
+  },
+  "ads": {
+    "masterEnabled": true,
+    "testMode": true,
+    "banner": {
+      "enabled": true,
+      "unitId": "ca-app-pub-3940256099942544/6300978111",
+      "screens": ["home", "category"],
+      "adaptive": true
+    },
+    "interstitial": {
+      "enabled": true,
+      "unitId": "ca-app-pub-3940256099942544/1033173712",
+      "showEveryNActions": 3,
+      "minSecondsBetween": 60,
+      "triggerPoints": ["open_bundle", "back_from_detail"],
+      "maxPerSession": 6
+    },
+    "native": {
+      "enabled": true,
+      "unitId": "ca-app-pub-3940256099942544/2247696110",
+      "everyNItems": 6,
+      "style": "card"
+    },
+    "rewarded": {
+      "enabled": true,
+      "unitId": "ca-app-pub-3940256099942544/5224354917",
+      "unlockDurationHours": 24,
+      "rewardsRequiredToUnlock": 1
+    },
+    "appOpen": {
+      "enabled": false,
+      "unitId": "ca-app-pub-3940256099942544/9257395921"
+    }
+  },
+  "categories": [
+    { "id": "stickers", "name": "Stickers", "icon": "emoji_emotions", "order": 1 },
+    { "id": "emoji", "name": "Emoji", "icon": "sentiment_satisfied", "order": 2 },
+    { "id": "anime", "name": "Anime", "icon": "sports_esports", "order": 3 },
+    { "id": "3d", "name": "3D", "icon": "star", "order": 4 }
+  ],
+  "bundles": [
+    {
+      "id": "3d-character-pack",
+      "title": "3D Character Pack",
+      "description": "Amazing 3D cartoon character in high quality PNG format with transparent backgrounds. Ideal for avatars, UI designs, and creative presentations.",
+      "categoryId": "3d",
+      "previewImages": [
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+      ],
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=3d_character_pack_example",
+      "isPremium": true,
+      "isFeatured": true,
+      "isNew": false,
+      "imageCount": 50,
+      "sizeMb": 12.5,
+      "tags": ["3D", "Character", "Boy", "Cartoon"],
+      "createdAt": "2026-11-15T00:00:00Z",
+      "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "cute-cat-stickers",
+      "title": "Cute Cat Stickers",
+      "description": "Adorable feline expressions and playful kitten poses in high resolution transparent PNG format.",
+      "categoryId": "stickers",
+      "previewImages": [
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png"
+      ],
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=cute_cat_stickers_example",
+      "isPremium": false,
+      "isFeatured": false,
+      "isNew": true,
+      "imageCount": 48,
+      "sizeMb": 8.1,
+      "tags": ["cat", "sticker", "cute", "animal"],
+      "createdAt": "2026-11-18T00:00:00Z",
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "panda-pack",
+      "title": "Panda Pack",
+      "description": "Lovable giant panda illustrations with cute gestures, bamboo accessories, and happy emotions.",
+      "categoryId": "stickers",
+      "previewImages": [
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/674.png"
+      ],
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=panda_pack_example",
+      "isPremium": true,
+      "isFeatured": false,
+      "isNew": false,
+      "imageCount": 60,
+      "sizeMb": 14.2,
+      "tags": ["panda", "animal", "cute", "sticker"],
+      "createdAt": "2026-11-14T00:00:00Z",
+      "order": 3,
+      "enabled": true
+    },
+    {
+      "id": "anime-girl",
+      "title": "Anime Girl",
+      "description": "Chibi and manga style anime character illustrations with expressive poses and rich details.",
+      "categoryId": "anime",
+      "previewImages": [
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png"
+      ],
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=anime_girl_example",
+      "isPremium": false,
+      "isFeatured": false,
+      "isNew": true,
+      "imageCount": 72,
+      "sizeMb": 15.3,
+      "tags": ["anime", "girl", "cute", "manga"],
+      "createdAt": "2026-11-17T00:00:00Z",
+      "order": 4,
+      "enabled": true
+    },
+    {
+      "id": "cool-boy",
+      "title": "Cool Boy",
+      "description": "Trendy anime boy characters with modern street style jackets, headphones, and glasses.",
+      "categoryId": "anime",
+      "previewImages": [
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
+      ],
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=cool_boy_example",
+      "isPremium": false,
+      "isFeatured": false,
+      "isNew": false,
+      "imageCount": 50,
+      "sizeMb": 11.8,
+      "tags": ["boy", "anime", "cool", "character"],
+      "createdAt": "2026-11-12T00:00:00Z",
+      "order": 5,
+      "enabled": true
+    },
+    {
+      "id": "minion-pack",
+      "title": "Minion Pack",
+      "description": "Fun little yellow animated cartoon companions with goggles and hilarious expressions.",
+      "categoryId": "stickers",
+      "previewImages": [
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/175.png"
+      ],
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=minion_pack_example",
+      "isPremium": false,
+      "isFeatured": false,
+      "isNew": false,
+      "imageCount": 64,
+      "sizeMb": 13.7,
+      "tags": ["minion", "cartoon", "yellow", "funny"],
+      "createdAt": "2026-11-10T00:00:00Z",
+      "order": 6,
+      "enabled": true
+    },
+    {
+      "id": "love-stickers",
+      "title": "Love Stickers",
+      "description": "Romantic heart symbols, Cupid arrows, glowing sparkles, and tender couple moments in crisp PNG format.",
+      "categoryId": "emoji",
+      "previewImages": [
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png"
+      ],
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=love_stickers_example",
+      "isPremium": false,
+      "isFeatured": false,
+      "isNew": false,
+      "imageCount": 42,
+      "sizeMb": 9.6,
+      "tags": ["love", "heart", "romance", "emoji"],
+      "createdAt": "2026-11-08T00:00:00Z",
+      "order": 7,
+      "enabled": true
+    }
+  ]
+}
+
